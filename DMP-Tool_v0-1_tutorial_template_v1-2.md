@@ -1,5 +1,5 @@
 <!--
-author:   einfügen
+author:   Jimena Linares, Juliane Röder
 email:    einfügen
 version:  0.1.0
 language: en
@@ -82,11 +82,33 @@ The GFBio DMPT contains the most important questions that you should ask when st
 
 ![Brainstorm](https://www.gfbio.org/media/images/Brainstorm_400_CC0.width-500.jpg "Someone staring at a board full of papers...")
 
-It is all about the [planning](https://www.gfbio.org/training/material/data-life-cycle/plan/)! You can start to consider general information about your project right at the beginning. Besides the **project name** and the **people involved**, you already give a first impression of the **research data** you will produce.
+<section>
 
-What is your **main subject**? - In the GFBio DMPT, you can choose between several categories from _Algae & Protists_ to _Zoology_. What **type of project** is it? - Perhaps you are doing _Laboratory_ and/or _Field Work_.
+### Project details
+
+It is all about the [planning](https://www.gfbio.org/training/material/data-life-cycle/plan/)! You can start to consider general information about your project right at the beginning. 
+
+Besides the **project name** and the **people involved**, you already give a first impression of the **research data** you will produce.
+</section>
+
+
+<section>
+
+### Research subject and project type
+
+What is your **main subject**? - In the **GFBio DMP-Tool**<!-- style="color: red" -->, you can choose between several categories from _Algae & Protists_ to _Zoology_. 
+
+What **type of project** is it? - Perhaps you are doing _Laboratory_ and/or _Field Work_.
+
+</section>
+
+<section>
+
+### Funding information
 
 The **funding** you are applying for may also influence the content or structure of your DMP. Some funders have special requirements for a DMP as a mandatory part of the proposal (e.g., DFG, Horizon 2020). Many funders, as well as institutions or publishers, also have their own **policies and guidelines for data management**. You do not need to know all the details of these at the beginning of your data management planning, but it is important to know about these the requirements and to document them. If you are unsure which policies or guidelines you have to stick to, just let us know, and we can support you in identifying them.
+
+</section>
 
 
 
@@ -155,6 +177,8 @@ For general questions, you can [contact us](mailto:info@gfbio.org) anytime. In t
 The GFBio DMP Tool (<https://dmp.gfbio.org/>) provides an intuitive platform for creating detailed Data Management Plans.
 
 It contains relevant questions on data management planning in the biodiversity, ecological, and environmental domain, and it is based on the [DFG Guidelines on the Handling of Research Data in Biodiversity Research](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf).
+
+**add ref dfg**<!-- style="color: red" -->
 
 ## **Major features of the GFBio's DMP Tool**
 
@@ -244,6 +268,8 @@ Examine the ethical and legal ramifications.
 
 -   Ethical issues (if applicable)
 
+-   **Permits (do you need any permits to collect, move, export/import, or handle your samples and data?)**<!-- style="color: red" -->
+
 ### **Preservation and Sharing**
 
 **Describe your long-term data preservation and distribution strategies:**
@@ -276,8 +302,9 @@ Mau, Franziska; Timmermann, Britta; Astor, Tina, (2020). **GFBio Model Data Mana
 
 ## **Open Questions?**
 
-**Get support** through the GFBio's helpdesk: [helpdesk\@gfbio.org](mailto:helpdesk@gfbio.org)
+>**Get support** through the GFBio's helpdesk: [helpdesk\@gfbio.org](mailto:helpdesk@gfbio.org?subject=Support%20for%20DMP)
 
+**I added a subject to the e-mail request**<!-- style="color: red" -->
 
 
 ## Chapter
