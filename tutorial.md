@@ -41,12 +41,26 @@ __Further Information__
 
 Provide a link to the ReadMe file here, where more detailed information is provided.
 
+This tutorial is based on the following sources:  
+
+- NFDI4Biodiversity Knowledge Base Artikel "How to create a data management plan (DMP)" by Jimena Linares https://kb.gfbio.org/pages/viewpage.action?pageId=16351242
+- NFDI4Biodiversity Knowledge Base Artikel "How to create a data management plan (using the GFBio DMP-Tool)" by Jimena Linares https://kb.gfbio.org/pages/viewpage.action?pageId=180388323
+- Slides  of the session "Data management planning", part of the NFDI4Biodiversity & iDiv Seasonal School 2024 - Linares, J. (2024, November 14). DMPS as part of local organisation, FAIRness and policy compliance. Zenodo. https://doi.org/10.5281/zenodo.14162304
+- Video recording of the session "Data management planning", part of the NFDI4Biodiversity & iDiv Seasonal School 2024 - Ivaylo Kostadinov "Basics of Data Management Planning" https://www.youtube.com/watch?v=LyVYrilcIpI
+
 
 # **What is a Data Management Plan (DMP)?**
 
-A Data Management Plan (DMP) is a formal document that outlines how data will be handled throughout a research project. 
+A Data Management Plan (DMP) is a formal document that outlines how data will be handled throughout a research project.
 
 It is also considered a living document throughout the project because it can be updated regularly as data content and types may change during the projects' lifetime.
+
+<section>
+### Who does the planning?
+
+Every data producer and data re-user, integrating secondary data or creating own data within their research project or as a partner in a research program.
+
+</section>
 
 ## **Benefits of creating a DMP**
 
@@ -58,11 +72,40 @@ It is also considered a living document throughout the project because it can be
 
 -   It helps to save time in the long run.
 
-Are you writing a proposal and need to add Data Management Plan (DMP)?
 
->**Write your DMP** with the [GFBio DMP Tool](https://www.gfbio.org/plan/)
+> [!TIP]
+> Are you writing a proposal and need to add Data Management Plan (DMP)?
+>
+> __Write your DMP__ with the [GFBio DMP Tool](https://www.gfbio.org/plan/)
 
-Questions regarding your data? ➡ [**Contact our Helpdesk**](mailto:helpdesk@nfdi4biodiversity.org?subject=Help%20with%20data%20submission%20and%20publication)
+> [!NOTE]
+> __Questions regarding your data?__ ➡ [__Contact our Helpdesk__](mailto:helpdesk@nfdi4biodiversity.org?subject=Help%20with%20data%20submission%20and%20publication)
+
+
+## Quiz
+
+Who is writing a data management plan (DMP)?
+
+<!-- data-randomize data-max-trials="3" -->
+- [[ ]] Only the speaker of a research group has to write a DMP, the other PIs can use the same DMP for their subprojects.
+- [[x]] Researchers re-using and integrating already published data.
+- [[ ]] Only researchers who collect new data should write a data management plan.
+- [[ ]] The funding agency is writing the data management plan for a project.
+- [[ ]] The research data managment team at your local institution has to write the data management plan for your project to meet funding requirements.
+***
+Correct! Every data creator or data user, collecting new data or re-using already published data, should write a DMP.
+***
+
+What are the benefits of writing a data management plan?
+
+<!-- data-randomize data-max-trials="3" -->
+- [[x]] Make sure to meet the requirements of the funding agency and your research institution.
+- [[x]] Estimate costs and logistics of data storage, back-up and long-term archiving in time to evaluate options to apply for dedicated funding in your project proposal.
+- [[ ]] The PI submitting the first DMP will be considered to be the project speaker by most funding agencies.
+- [[x]] Use the DMP to agree on common data and metadata standards with project partners.
+- [[ ]] You only need to do it once - you can use the same DMP for all of your projects.
+
+
 
 # How to create a data management plan (DMP)
 
@@ -92,23 +135,32 @@ Besides the **project name** and the **people involved**, you already give a fir
 </section>
 
 
-<section>
-
 ### Research subject and project type
 
 What is your **main subject**? - In the **GFBio DMP-Tool**<!-- style="color: red" -->, you can choose between several categories from _Algae & Protists_ to _Zoology_. 
 
+- [ ] Algae & Protists
+- [ ] Bacteriology, Virology
+- [ ] Botany
+- [ ] Ecology & Environment
+- [ ] Geoscience
+- [ ] Microbiology
+- [ ] Mycology
+- [ ] Paleontology
+- [ ] Zoology
+- [ ] Other
+
 What **type of project** is it? - Perhaps you are doing _Laboratory_ and/or _Field Work_.
 
-</section>
+- [ ] Laboratory work
+- [ ] Field work
+- [ ] Computational modelling
 
-<section>
 
 ### Funding information
 
 The **funding** you are applying for may also influence the content or structure of your DMP. Some funders have special requirements for a DMP as a mandatory part of the proposal (e.g., DFG, Horizon 2020). Many funders, as well as institutions or publishers, also have their own **policies and guidelines for data management**. You do not need to know all the details of these at the beginning of your data management planning, but it is important to know about these the requirements and to document them. If you are unsure which policies or guidelines you have to stick to, just let us know, and we can support you in identifying them.
 
-</section>
 
 
 
@@ -234,6 +286,80 @@ Begin by providing basic information about your project, including:
 -   Project Description
 
 -   Financial resource information
+
+#### Project title, contact person and description
+
+<section>
+
+##### Provide the _project title_, _abstract_, _contact person_, and _principal investigators_ (optional).
+
+In the DMP-Tool, the contact person should be the person who should be contacted about any questions concerning data management. This can be technical issues as well as data policies, legal requirements or data volumens and formats.
+
+Usually, this is the same person preparing the DMP - you.
+
+</section>
+
+
+##### Provide details about the _research topic(s)_ and _project type_ 
+
+Provide details about the _research topic(s)_ and _project type_ 
+
+Select a _category_ for your research topic:
+
+- [ ] Algae & Protists
+- [ ] Bacteriology, Virology
+- [ ] Botany
+- [ ] Ecology & Environment
+- [ ] Geoscience
+- [ ] Microbiology
+- [ ] Mycology
+- [ ] Paleontology
+- [ ] Zoology
+- [ ] Other
+
+What **type of project** is it? - You can select serveral types.
+
+- [ ] Field work
+- [ ] Observational
+- [ ] Experimental
+- [ ] Laboratory work
+- [ ] Simulation
+- [ ] Assimilation
+- [ ] Modelling
+- [ ] Other
+
+
+#### Reproducibility
+
+Is your research data __reproducible__?
+
+Imagine your data gets lost. Would you (or someone else) be able to reproduce your data? What effort or resources would be necessary?
+
+- [ ] One-time observation
+- [ ] Repeatable experiments
+- [ ] Time series
+
+<details> <summary>One-time observation</summary>
+- A one-time observation might for example be gray seal count in the German wadden sea in __June 2006__, or a DNA analysis __without__ sample storage.
+</details>
+
+<details> <summary>Repeatable exeriments</summary>
+- A repeatable experiment might for example be a DNA analysis __with the deposit of sample material__, or a __documented statistical analysis__ of slug counts in Sweden in the years 1956 to 1996 (assumed computer code and primary data are available).
+</details>
+
+<details> <summary>Time series</summary>
+- A time series (observation) is a __series of one-time observations__ and might for example be the __periodic raw counts__ of slugs in Sweden during the years 1956 to 1996, or __daily measurements__ of precipitation and air temperature.
+</details>
+
+How much effort (time and financial) would be necessary to reproduce your data? 
+
+> [!NOTE]
+> The collection or creation of your data may not be reproducible because it consists of one-time observations, for example the counts of butterfly species along monthly transect walks in spring and summer 2013. 
+>
+> It is impossible to recreate the exact conditions under which this data was collected or created (environmental, persons involved). 
+>
+> However, you should always aim to make your research __replicable__. This means that you should document all conditions that could have an effect on the collected data, and that may help others to repeat your data collection directly, systematically, or conceptually. This includes, but is not restricted to, documenting the sampling protocol(s), sample and data processing procedures, as well as code and code environments used in data analysis.
+
 
 ### **Data collection**
 
