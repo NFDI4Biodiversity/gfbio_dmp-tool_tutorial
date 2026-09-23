@@ -1,4 +1,14 @@
-# Name of your tutorial
+# GFBio DMP-Tool Tutorial
+
+> [!CAUTION]
+> This tutorial is work-in-progress, at an early state of development. Please refer to the following resources to learn more about data management plans (DMPs) in general, and the GFBio-DMP-Tool in particular:
+>
+> - GFBio DMP-Tool https://dmp.gfbio.org/
+> - NFDI4Biodiversity Knowledge Base Artikel "How to create a data management plan (DMP)" by Jimena Linares https://kb.gfbio.org/pages/viewpage.action?pageId=16351242
+> - NFDI4Biodiversity Knowledge Base Artikel "How to create a data management plan (using the GFBio DMP-Tool)" by Jimena Linares https://kb.gfbio.org/pages/viewpage.action?pageId=180388323
+> - Slides  of the session "Data management planning", part of the NFDI4Biodiversity & iDiv Seasonal School 2024 - Linares, J. (2024, November 14). DMPS as part of local organisation, FAIRness and policy compliance. Zenodo. https://doi.org/10.5281/zenodo.14162304
+> - Video recording of the session "Data management planning", part of the NFDI4Biodiversity & iDiv Seasonal School 2024 - Ivaylo Kostadinov "Basics of Data Management Planning" https://www.youtube.com/watch?v=LyVYrilcIpI
+
 
 The separate ReadMe file for the tutorial or learning module helps keep the tutorial structure and content concise.
 
